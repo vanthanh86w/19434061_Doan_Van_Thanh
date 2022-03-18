@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+.wrapper {
+    height: auto;
+}
+
+/* HEADER */
+.header {
+    background-color: #ccc;
+    height: 173px;
+}
+
+.logo {
+    display: block;
+}
+
+.logo-img {
+    width: 300px;
+    display: inline-block;
+    margin-left: 58px;
+    margin-bottom: 20px;
+}
+
+.sign-in {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    padding: 5px 35px 5px 5px;
+    border-radius: 10px;
+    background-color: #999;
+    border-style: none;
+    margin-right: 35px;
+    
+}
+
+.sign-in a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #333;
+}
+
+.menu {
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 25px 70px;
+}
+
+
+
+
+
+.nav {
+    margin: 40px 67px;
+    display: block;
+}
+
+.nav-left {
+    width: 70%;
+    display: inline-block;
+}
+
+.nav-left li {
+    display: inline-block;
+}
+
+.nav-left li a {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 6px;
+    line-height: 1.4;
+}
+
+.nav-left li a:link {
+    color: blue;
+}
+.nav-left li a:visited {
+   color: #333;
+}
+
+.nav-right {
+    width: 15%;
+    
+    display: inline-block;
+}
+
+.nav-right li {
+    display: inline-block;
+}
+
+.nav-right li a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 20px;
+    line-height: 1.4;
+}
+
+.button-cog {
+    padding: 2px 8px;
+    border: 1px none;
+    background-color: #ccc;
+    box-shadow: 1px 1px 5px 0
+}
+
+.body-content {
+    margin-left: 70px;
+}
+
+.title {
+    line-height: 1.4;
+    font-size: 50px;
+}
+
+.about-css {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+table, td {
+    border-spacing: 10px;
+    width: 50%;
+    margin: 35px 21%;
+}
+td {
+    padding: 15px;
+    background-color: firebrick;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+.footer {
+    background-color: #999;
+    height: 60px;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}

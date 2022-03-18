@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family:  Helvetica, Arial, sans-serif;
+}
+
+/* common */
+.clear {
+    clear: both;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.header {
+    background: url(../img/background-img-bai24b.PNG) top center / cover no-repeat;
+    height: 145px;
+}
+.logo {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 79px;
+}
+
+h2, h4 {
+    color: #fff;
+}
+
+.intro {
+    position: relative;
+    top: 33px;
+    left: 40px;
+}
+
+.menu {
+    background-color: #ccc;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    top: 14px;
+}
+
+.menu li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.6;
+    padding-left: 30px;
+}
+ 
+.menu li:hover a {
+    color: black;
+}
+
+.content {
+    height: 500px;
+    margin: 20px;
+}
+
+.about-food {
+    margin-bottom: 25px;
+}
+
+.food-description-col1 {
+    width: 35%;
+    /* float: left; */
+}
+.food-description-col2 {
+    width: 40%;
+    /* float: left; */
+}
+.side-bar-desc{
+    width: 25%;
+}
+
+.col1-2 {
+    width: 70%;
+}
+.col1 {
+    width: 40%;
+}
+
+.col2 {
+    width: 60%;
+}
+.col3 {
+    width: 30%;
+    border-left: 1px solid #ccc;
+    padding-left: 30px;
+    height: 645px;
+}
+
+.food {
+  border: 1px solid #ccc; 
+  margin-left: 10px;
+  margin-top: 30px; 
+}
+
+.food-img {
+    width: 98%;
+    height: 240px;
+    margin: 5px 5px;
+}
+
+.food-name {
+    font-size: 16px;
+    text-align: left;
+    margin: 0 0 5px 3px;
+}
+
+.food-content {
+    margin: 60px 11px;
+}
+
+.food-heading {
+    font-size: 36px;
+    color: #666;
+}
+
+.food-time {
+    font-size: 20px;
+    color:deeppink;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.food-detail {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.4;
+}
+
+.side-bar-desc {
+    border-left: 1px solid #ccc;
+    padding-left: 30px;
+    width: 25%;
+}
+
+.side-bar-heading {
+    font-size: 36px;
+    color: deeppink;
+    line-height: 1.4;
+    padding-top: 48px;
+    padding-bottom: 20px;
+}
+.row-side-bar {
+    font-size: 16px;
+    color: deeppink;
+    line-height: 1.4;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 25px;
+    border-bottom: 1px solid #ccc;
+}
+.contact-info {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.footer {
+    background-color: #ccc;
+    text-align: left;
+}

@@ -1,0 +1,58 @@
+h1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    background-color: #666;
+    margin: 0;
+    padding: 10px;
+    height: 60px;
+    z-index: 2;
+}
+.nav {
+    z-index: 1;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100px;
+    height: 300px;
+    padding: 10px;
+    background-color: #d6d6d6;
+}
+p.abstract {
+    font-weight: bold;
+    position: absolute;
+    top: 150px;
+    left: 135px;
+}
+.nav::before {
+    content: "Navigation ";
+    font-size: 18px;
+    font-weight: bold;
+}
+h2 {
+    position: absolute;
+    top: 90px;
+    left: 130px;
+}
+
+.floatLeft {
+    width: 100px;
+    height: 80px;
+    float: left;
+}
+p {
+    position: absolute;   
+    font-size: 14px;
+}
+
+ul {
+    position: absolute;
+    top: 260px;
+    left: 105px;
+}
+ul li{
+    text-decoration: none;
+    list-style-type: circle;
+}
